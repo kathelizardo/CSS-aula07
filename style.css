@@ -1,0 +1,517 @@
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(17, 6, 0, 0.959);
+    color:white;
+    margin: 0px;
+    padding: 0px;
+   }
+
+   a:hover {
+    text-decoration: none;
+}
+   
+
+
+/* cabeçalho  */
+
+.header {
+    position: relative;
+    padding: 4px;
+    height: 90px;
+    }
+
+    .titulo
+        {
+            position: absolute;
+            color: white;
+            font-size:40px;
+            letter-spacing: 20px;
+            padding: 60px 0px 70px 100px;
+           
+           }
+        .titulo a {
+                text-decoration: none;
+                color: whitesmoke;
+                    }
+    
+
+    .mainmenu {
+         display: flex;
+         flex-flow: row;
+         justify-content: right;
+         position: absolute;
+         padding: 100px 0px 0px 1400px;
+         letter-spacing: 4px;
+        }
+    /* @media all and (max-width: 800px) {.mainmenu { justify-content: space-around;} */
+    
+    .mainmenu a {
+         text-decoration: none;
+         color: whitesmoke;
+         font-size: 30px;
+         outline: 0;
+         display:block;
+         margin-left: 100px;
+         padding: 8px 0.5px;     
+        }
+
+        .mainmenu ul {
+            list-style: none;           
+            }   
+            
+        .mainmenu > ul > li {
+            float: left;
+            } 
+
+            
+        .mainmenu li.active a {
+         background: rgb(49, 153, 167);
+         border-radius: 6px;
+         color: whitesmoke;
+                    }
+
+
+/* Banner */
+
+#banner
+	{
+       background: url(images/banner.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-color: #464646;
+       margin-top: 200px;
+       height: 850px
+	} 
+        
+    
+ /* Pagina - Homepage    */
+
+/* Content */
+
+.meses {
+        position: relative;
+	    background: white;
+        display: flex;
+        flex-direction: row;
+        color: black;
+        padding: 40px 0px 80px 0px; 
+        align-content: center;
+        justify-content: center;
+            
+        } 
+        .meses h4 {
+            letter-spacing: 8px;
+            text-align: left;
+            font-size: 20px;
+        }  
+
+        .meses h3 {
+            text-align: left;
+            font-size: 50px ;
+            
+        }
+
+        .meses p{
+            text-align: justify;
+            margin-right: 10px;
+            width: 500px;
+            font-size: 30px;
+        }
+      
+        .mes1 {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 80px 20px 20px;
+            }
+
+        .mes2 {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 80px 20px 80px;
+            }
+
+        .mes3 {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 80px 20px 80px;
+            }
+
+        .mes4 {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 10px 20px 80px;
+            }
+
+
+.maisfotos{
+    display:flex;
+    align-content: center;
+    justify-content:space-between;
+    background-color:rgba(44, 29, 24, 0.959);
+    padding: 80px 0px 350px 0px; 
+    }
+
+    .maisfotos h4 {
+        color:rgba(184, 104, 80, 0.959);
+        font-size: 50px;
+        letter-spacing: 4px;
+        padding: 50px 60px 0px 0px;
+        }    
+
+    .maisfotos h3 {
+        position: absolute;
+        color:rgba(124, 94, 77, 0.959);
+        font-size: 25px;
+        letter-spacing: 10px;
+        padding: 0px 50px 100px 50px;
+        }
+
+    .maisfotos p {
+        margin-right: 50px;
+        color: rgba(102, 66, 46, 0.959);
+    }
+
+
+        .column1 {
+            display:flex;
+            flex-direction: column;
+            height: 400px;
+            width: 600px;
+            background-color:rgba(44, 27, 24, 0.959);
+            padding: 0px 40px 0px 10px;
+            
+        }
+
+            .column1 p {
+                color: rgba(102, 66, 46, 0.959);
+                font-size: 30px;
+            }
+
+                .c1 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 60px;
+                    } 
+                    .c1 p{ 
+                        margin-left: 30px ;
+                        text-align: justify;
+                        justify-content: center;
+                    
+                    }
+
+                .c2 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: justify; 
+                }
+                    .c2 p{ 
+                        margin-left: 30px ;
+                        text-align: justify;
+                        justify-content: center;}
+
+                .c3 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: justify;
+                    margin-top: 60px; 
+                }
+
+                    .c3 p{ 
+                        margin-left: 30px ;
+                        text-align: justify;
+                        justify-content: center;}
+    
+
+        .column2 {
+            display:flex;
+            flex-direction: column;
+            height: 400px;
+            width: 600px;
+            background-color:rgba(44, 27, 24, 0.959);
+            padding: 0px 40px 0px 40px;
+                }
+
+            .column2 p {
+                color: rgba(102, 66, 46, 0.959);
+                font-size: 30px;
+            }
+   
+
+                .c4 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 60px;
+                    } 
+                    .c4 p{ 
+                        margin-left: 30px ;
+                        text-align: justify;
+                        justify-content: center;
+                    }
+
+                .c5 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: justify; 
+                }
+                    .c5 p{ 
+                    margin-left: 30px ;
+                    text-align: justify;
+                    justify-content: center;}
+
+                .c6 {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: justify;
+                    margin-top: 60px; 
+                }
+
+                    .c6 p{ 
+                        margin-left: 30px ;
+                        text-align: justify;
+                        justify-content: center;}
+    
+        .column3 {
+                display:flex;
+                flex-direction: column;
+                height: 800px;
+                width: 1200px;
+                background-color:rgba(44, 27, 24, 0.959);
+                padding: 0px 20px 0px 40px ;
+                margin-right: 20px;
+        
+                }
+
+            .column3 p {
+                color: rgba(102, 66, 46, 0.959);
+                font-size: 35px;
+                 }
+   
+
+                .c7 {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 30px;
+                    } 
+                    .c7 p { 
+                        margin-left: 0px ;
+                        margin-top: 30px;
+                        text-align: justify;
+                        justify-content:space-evenly;
+                        line-height: 45px;
+                        width: 1200px;
+                    }
+
+.finpag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    background-color: rgba(31, 16, 13, 0.959);
+    padding: 40px 0px 800px 0px;
+     }
+        .fin1 h4 {
+            color:rgba(184, 104, 80, 0.959);
+            font-size: 50px;
+            letter-spacing: 4px;
+            padding: 50px 60px 0px 40px;
+            }  
+
+        .fin1 {
+            height: 400px;
+            width: 1800px;
+            padding: 0px 20px 80px 10px;
+        }
+
+        .fin1 p{
+            font-size: 35px;
+            color: rgba(102, 66, 46, 0.959);
+            padding: 0px 40px 0px 40px ;
+            text-align: justify;
+            line-height: 60px;
+        }
+
+        .fin1 a {
+            text-decoration: none;
+            color: rgba(184, 104, 80, 0.959);
+            text-decoration-line: underline;
+        }
+
+        .fin2 h4 {
+            color:rgba(184, 104, 80, 0.959);
+            font-size: 50px;
+            letter-spacing: 4px;
+            padding: 50px 0px 0px 30px;
+            }  
+
+        .fin2 {
+            height: 400px;
+            width: 800px;
+            display: flex;
+            flex-direction: column; 
+        }
+        .fin2 a {
+            text-decoration: none;
+            color: rgba(102, 66, 46, 0.959);
+            font-size: 35px;
+            outline: 0;
+            display:block;
+            margin-left: 0px;
+            text-decoration-line: underline;
+            line-height: 100px;   
+           }
+   
+           .fin2 ul {
+               list-style: none;
+               text-align: justify;       
+               }   
+
+
+/* copyright */
+
+    .copyright {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        padding: 100px 10px 100px 10px;
+        justify-content: center;   
+        }
+        .copyright p {
+            color: rgba(102, 66, 46, 0.959);
+            margin-left: 40px;
+            }
+        
+        .copyright a {
+            text-decoration: none;
+            color: rgba(102, 66, 46, 0.959);
+            font-size: 35px;
+        }
+
+/* PAGINA - FOTO DE MES */
+
+.titulofm {
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 80px;
+     background-color: whitesmoke;
+     color: rgba(184, 104, 80, 0.959);
+    }
+
+    .titulofm h1 {
+        font-size: 50px;
+    }
+
+    .titulofm h2 {
+        font-size: 40px;
+        text-shadow: saddlebrown ;
+    }
+
+    .titulofm h3 {
+        font-size: 40px;
+    }
+    .titulofm p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .fotodemes {
+        border-color: black;
+        border-radius: 6px;
+    }
+
+  /* PAGINA - FOTOGRAFOS */
+
+  .fotografos {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 80px 89px 80px;
+      align-content: center;
+      background-color: whitesmoke;
+      color: rgba(184, 104, 80, 0.959);
+  }
+
+    .fotografos h1 {
+        display:flex;
+        padding: 20px 1000px 20px 1000px;
+        text-align: center;
+        align-items: center;
+        font-size:50px;
+           }
+
+    .fotografos h3 {
+            display:flex;
+            padding: 20px 0px 20px 80px;
+            color: rgba(209, 81, 59, 0.959);
+            text-align: center;
+            align-items: center;
+            font-size:50px;
+               }
+
+    .fotografos p {
+        text-align: justify;
+        font-size: 40px;
+        color: black;
+    }
+
+    
+
+   /* PAGINA - CONTATO */
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: whitesmoke;
+    padding: 10px 80px 89px 80px;
+    color: rgba(184, 104, 80, 0.959);
+}
+
+    .contato h1 {
+        display:flex;
+        padding: 20px 1000px 20px 1200px;
+        text-align: center;
+        align-items: center;
+        font-size:50px;
+    }
+
+    .contato p {
+        font-size: 40px;
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 80px 20px 600px;
+        align-items: center;
+        background-color: whitesmoke;
+        color:black;
+        font-size: 35px;
+    }
+
+    .cont2 {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 60px 20px 800px;
+        align-items: center;
+        background-color: whitesmoke;
+        color:black;
+        font-size: 35px;
+    }
+
+    .cont3 {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 60px 150px 1000px;
+        align-items: center;
+        background-color: whitesmoke;
+        color:black;
+        font-size: 35px;
+    }
